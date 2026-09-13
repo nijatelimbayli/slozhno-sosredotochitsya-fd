@@ -38,7 +38,7 @@
 }
 
 .header__theme-menu {
-  justify-self: flex-end;
+  justify-self: end;
   align-self: center;
 }
 
@@ -93,8 +93,6 @@
   color: var(--secondary-color);
 
   font-weight: var(--font-weight-bold);
-
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent-color);
