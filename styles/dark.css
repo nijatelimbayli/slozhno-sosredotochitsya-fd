@@ -32,12 +32,11 @@
     --secondary-color: #ffc2e6;
 
     --accent-text-color: #353430;
+    --text-color: #353430;
+    --text-secondary-color: #353430;
 
     --border-color: #353430;
     --outline-color: #353430;
-
-    --text-color: #353430;
-    --text-secondary-color: #353430;
   }
 
   .theme-light .rec {
