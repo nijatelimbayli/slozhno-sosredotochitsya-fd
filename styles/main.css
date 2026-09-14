@@ -34,7 +34,6 @@
   gap: var(--gap-m);
 }
 
-.card__title,
 .section-title__gallery {
   margin-bottom: var(--content-padding-s);
 }
@@ -83,6 +82,18 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-s);
+}
+
+.cards__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media (width >= 768px) {
